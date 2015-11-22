@@ -1,7 +1,7 @@
 {
 	"name": "dmzx/travisbbcode",
 	"type": "phpbb-extension",
-	"description": "Travis BBcode with Group Colours.",
+	"description": "This Extension will add a new BBcode for Travis Build Status.",
 	"homepage": "http://www.dmzx-web.net",
 	"version": "1.0.0",
 	"time": "2015-11-22",
