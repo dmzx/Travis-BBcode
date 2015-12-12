@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "This Extension will add a new BBcode for Travis Build Status.",
 	"homepage": "http://www.dmzx-web.net",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"time": "2015-11-22",
 	"keywords": ["phpbb", "extension", "travisbbcode"],
 	"license": "GPL-2.0",
