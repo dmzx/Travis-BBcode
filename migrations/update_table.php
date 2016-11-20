@@ -16,16 +16,8 @@ class update_table extends \phpbb\db\migration\migration
 		);
 	}
 
-	public function revert_data()
-	{
-		return array(
-			array('custom', array(array(&$this, 'remove_bbcode'))),
-		);
-	}
-
 	public function install_bbcode_for_travisbbcode()
 	{
-
 		if (!class_exists('acp_bbcodes'))
 		{
 			include($this->phpbb_root_path . 'includes/acp/acp_bbcodes.' . $this->php_ext);
@@ -70,7 +62,6 @@ class update_table extends \phpbb\db\migration\migration
 		}
 		else
 		{
-
 			$sql = 'SELECT MAX(bbcode_id) AS max_bbcode_id
 				FROM ' . $this->table_prefix . 'bbcodes';
 			$result = $this->db->sql_query($sql);
